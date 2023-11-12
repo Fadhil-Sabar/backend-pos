@@ -1,0 +1,32 @@
+{
+  "name": "backend-pos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Fadhil-A/backend-pos.git"
+  },
+  "author": "Fadhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Fadhil-A/backend-pos/issues"
+  },
+  "homepage": "https://gitlab.com/Fadhil-A/backend-pos#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.6.3",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.34.0"
+  }
+}
